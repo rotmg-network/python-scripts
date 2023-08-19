@@ -1,0 +1,9 @@
+# no account file uploads
+accounts.*
+
+# no monoscript files
+monoscript/*
+
+# no output packet files
+outgoing_packets_*
+incoming_packets_*
