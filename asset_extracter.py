@@ -5,9 +5,9 @@ import re
 
 
 # Define the input file path and output file path
-input_file_path = 'Resources\\resources.assets'
-object_output_file_path = 'Resources\\objects.xml'
-tile_output_file_path = 'Resources\\tiles.xml'
+input_file_path = 'resources.assets'
+object_output_file_path = 'objects.xml'
+tile_output_file_path = 'tiles.xml'
 
 # Read the entire content of the input file
 with open(input_file_path, 'r', encoding='ISO-8859-1') as input_file:
