@@ -88,7 +88,7 @@ if -89056337 in incorrect_order:
     incorrect_order.remove(-89056337)
     sanity = -89056337
 else:
-    print("didnt find sanity")
+    print("didnt find sanity, decryption failed change the ENCRYPTED_KEY and XOR_KEY")
     exit(1)
 
 version = None
@@ -96,7 +96,7 @@ if 29 in incorrect_order:
     incorrect_order.remove(29)
     version = 29
 else:
-    print("didnt find version")
+    print("didnt find version, decryption failed change the ENCRYPTED_KEY and XOR_KEY")
     exit(1)
 
 string_offset = min([x for x in incorrect_order if x != 0])
